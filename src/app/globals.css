@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+/* Elixira tokens: docs/DESIGN_SYSTEM.md. Components use these, never literal colours. */
+:root {
+  --forest: #263c30;
+  --forest-deep: #1b2b22;
+  --ink: #1c2620;
+  --ivory: #faf8f2;
+  --beige: #ede5d7;
+  --sage: #89977b;
+  --sage-deep: #5e6b52;
+  --gold: #b08d57;
+  --gold-light: #d4b483;
+  --gold-ink: #7d5f2c; /* gold dark enough for small text on ivory */
+  --danger: #9b3b2e;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-micro: 160ms;
+  --dur-ui: 280ms;
+
+  --header-h: 72px;
+}
+
+@theme inline {
+  --color-forest: var(--forest);
+  --color-forest-deep: var(--forest-deep);
+  --color-ink: var(--ink);
+  --color-ivory: var(--ivory);
+  --color-beige: var(--beige);
+  --color-sage: var(--sage);
+  --color-sage-deep: var(--sage-deep);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-ink: var(--gold-ink);
+  --color-danger: var(--danger);
+
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-manrope), "Manrope", system-ui, sans-serif;
+
+  --ease-out-soft: var(--ease-out);
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+html {
+  scroll-padding-top: calc(var(--header-h) + 16px);
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-feature-settings: "kern", "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--gold-light);
+  color: var(--forest-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 3px;
+}
+
+section[tabindex="-1"]:focus {
+  outline: none;
+}
+
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: var(--gold-light);
+}
+
+html {
+  scrollbar-color: var(--sage) var(--ivory);
+}
+
+/* Display headings: balanced, never wider than the measure the layout gives them. */
+.display {
+  font-family: var(--font-display);
+  font-weight: 300;
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+
+.measure {
+  max-width: 62ch;
+  text-wrap: pretty;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Link underline that thickens on hover. */
+.link-line {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+  transition: text-decoration-thickness var(--dur-micro) var(--ease-out),
+    color var(--dur-micro) var(--ease-out);
+}
+.link-line:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  z-index: 100;
+  background: var(--forest);
+  color: var(--ivory);
+  padding: 0.75rem 1rem;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Herb-to-bottle film. Default (no JS / reduced motion): herb and product screens stack.
+   .is-film (added by GSAP when motion is allowed): each chapter pins one full screen. */
+.film .layer {
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+}
+.film.is-film .chapter {
+  height: 260svh;
+}
+.film.is-film .chapter-stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+}
+.film.is-film .chapter-stage > .layer {
+  position: absolute;
+  inset: 0;
+  min-height: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

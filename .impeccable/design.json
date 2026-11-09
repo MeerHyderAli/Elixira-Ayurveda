@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T12:44:46.169Z",
+  "title": "Design System: Elixira Ayurveda",
+  "extensions": {
+    "colorMeta": {
+      "forest": {
+        "role": "primary",
+        "displayName": "Apothecary Forest",
+        "canonical": "#263c30",
+        "tonalRamp": [
+          "oklch(15% 0.005 159.9)",
+          "oklch(26% 0.012 159.9)",
+          "oklch(38% 0.022 159.9)",
+          "oklch(50% 0.031 159.9)",
+          "oklch(62% 0.03 159.9)",
+          "oklch(74% 0.02 159.9)",
+          "oklch(85% 0.012 159.9)",
+          "oklch(95% 0.005 159.9)"
+        ]
+      },
+      "forest-deep": {
+        "role": "primary",
+        "displayName": "Night Forest",
+        "canonical": "#1b2b22",
+        "tonalRamp": [
+          "oklch(15% 0.004 159.3)",
+          "oklch(26% 0.01 159.3)",
+          "oklch(38% 0.017 159.3)",
+          "oklch(50% 0.024 159.3)",
+          "oklch(62% 0.023 159.3)",
+          "oklch(74% 0.016 159.3)",
+          "oklch(85% 0.009 159.3)",
+          "oklch(95% 0.004 159.3)"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Seal Gold",
+        "canonical": "#b08d57",
+        "tonalRamp": [
+          "oklch(15% 0.012 77.4)",
+          "oklch(26% 0.03 77.4)",
+          "oklch(38% 0.052 77.4)",
+          "oklch(50% 0.074 77.4)",
+          "oklch(62% 0.07 77.4)",
+          "oklch(74% 0.048 77.4)",
+          "oklch(85% 0.028 77.4)",
+          "oklch(95% 0.012 77.4)"
+        ]
+      },
+      "gold-light": {
+        "role": "secondary",
+        "displayName": "Lamplight Gold",
+        "canonical": "#d4b483",
+        "tonalRamp": [
+          "oklch(15% 0.011 78)",
+          "oklch(26% 0.026 78)",
+          "oklch(38% 0.046 78)",
+          "oklch(50% 0.066 78)",
+          "oklch(62% 0.063 78)",
+          "oklch(74% 0.043 78)",
+          "oklch(85% 0.025 78)",
+          "oklch(95% 0.011 78)"
+        ]
+      },
+      "gold-ink": {
+        "role": "secondary",
+        "displayName": "Ink Gold",
+        "canonical": "#7d5f2c",
+        "tonalRamp": [
+          "oklch(15% 0.012 78.6)",
+          "oklch(26% 0.028 78.6)",
+          "oklch(38% 0.049 78.6)",
+          "oklch(50% 0.07 78.6)",
+          "oklch(62% 0.066 78.6)",
+          "oklch(74% 0.045 78.6)",
+          "oklch(85% 0.026 78.6)",
+          "oklch(95% 0.012 78.6)"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Ivory Paper",
+        "canonical": "#faf8f2",
+        "tonalRamp": [
+          "oklch(15% 0.001 91.5)",
+          "oklch(26% 0.003 91.5)",
+          "oklch(38% 0.005 91.5)",
+          "oklch(50% 0.007 91.5)",
+          "oklch(62% 0.007 91.5)",
+          "oklch(74% 0.005 91.5)",
+          "oklch(85% 0.003 91.5)",
+          "oklch(95% 0.001 91.5)"
+        ]
+      },
+      "beige": {
+        "role": "neutral",
+        "displayName": "Linen",
+        "canonical": "#ede5d7",
+        "tonalRamp": [
+          "oklch(15% 0.003 81.8)",
+          "oklch(26% 0.007 81.8)",
+          "oklch(38% 0.013 81.8)",
+          "oklch(50% 0.018 81.8)",
+          "oklch(62% 0.017 81.8)",
+          "oklch(74% 0.012 81.8)",
+          "oklch(85% 0.007 81.8)",
+          "oklch(95% 0.003 81.8)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1c2620",
+        "tonalRamp": [
+          "oklch(15% 0.003 158.5)",
+          "oklch(26% 0.006 158.5)",
+          "oklch(38% 0.011 158.5)",
+          "oklch(50% 0.016 158.5)",
+          "oklch(62% 0.015 158.5)",
+          "oklch(74% 0.01 158.5)",
+          "oklch(85% 0.006 158.5)",
+          "oklch(95% 0.003 158.5)"
+        ]
+      },
+      "sage": {
+        "role": "neutral",
+        "displayName": "Sage",
+        "canonical": "#89977b",
+        "tonalRamp": [
+          "oklch(15% 0.007 129.2)",
+          "oklch(26% 0.015 129.2)",
+          "oklch(38% 0.027 129.2)",
+          "oklch(50% 0.039 129.2)",
+          "oklch(62% 0.037 129.2)",
+          "oklch(74% 0.025 129.2)",
+          "oklch(85% 0.014 129.2)",
+          "oklch(95% 0.007 129.2)"
+        ]
+      },
+      "sage-deep": {
+        "role": "neutral",
+        "displayName": "Deep Sage",
+        "canonical": "#5e6b52",
+        "tonalRamp": [
+          "oklch(15% 0.006 130.2)",
+          "oklch(26% 0.015 130.2)",
+          "oklch(38% 0.026 130.2)",
+          "oklch(50% 0.037 130.2)",
+          "oklch(62% 0.035 130.2)",
+          "oklch(74% 0.024 130.2)",
+          "oklch(85% 0.014 130.2)",
+          "oklch(95% 0.006 130.2)"
+        ]
+      },
+      "danger": {
+        "role": "error",
+        "displayName": "Madder",
+        "canonical": "#9b3b2e",
+        "tonalRamp": [
+          "oklch(15% 0.02 30.3)",
+          "oklch(26% 0.047 30.3)",
+          "oklch(38% 0.082 30.3)",
+          "oklch(50% 0.117 30.3)",
+          "oklch(62% 0.111 30.3)",
+          "oklch(74% 0.076 30.3)",
+          "oklch(85% 0.044 30.3)",
+          "oklch(95% 0.02 30.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline once per page (second line italic gold-light); the film title shares the band."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles via the .display class."
+      },
+      "chapter-herb": {
+        "displayName": "Chapter herb",
+        "purpose": "Herb name alone over a full-screen film still; the only type above 6rem; aria-hidden duplicate."
+      },
+      "chapter": {
+        "displayName": "Chapter",
+        "purpose": "Product name heading on each film product screen, max 14ch."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Ritual step numbers: Cormorant light, lining + tabular figures, Ink Gold, 3.5rem (4.5rem from sm)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Ritual step names, collection tabs (desktop), collection panel heading."
+      },
+      "title-sm": {
+        "displayName": "Title small",
+        "purpose": "Trust-band titles."
+      },
+      "botanical": {
+        "displayName": "Botanical",
+        "purpose": "Latin binomials, Cormorant italic, ivory at 85%."
+      },
+      "body-lead": {
+        "displayName": "Body lead",
+        "purpose": "Editorial running copy and film notes at a 62ch (film: 30-34rem) measure."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default running text (replaced 0.9375rem); film metadata and secondary links."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Metadata, captions, form help, footer headings; slot ids and progress rail at 0.75rem."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, dock actions and navigation only; uppercase."
+      }
+    },
+    "shadows": [
+      {
+        "name": "header-hairline",
+        "value": "0 1px 0 rgb(176 141 87 / 0.35)",
+        "purpose": "Gold rule under the solid header. A line, not elevation; the system has no drop shadows."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "All UI transitions (--ease-out)."
+      },
+      {
+        "name": "dur-micro",
+        "value": "160ms",
+        "purpose": "Underline and colour micro-transitions."
+      },
+      {
+        "name": "dur-ui",
+        "value": "280ms",
+        "purpose": "UI state changes; header slide and dock swap run 300ms."
+      },
+      {
+        "name": "reveal",
+        "value": "y 24px to 0, opacity 0 to 1, 0.9s expo.out, stagger 0.08s, once at top 90%",
+        "purpose": "[data-reveal] text and blocks."
+      },
+      {
+        "name": "image-clip-open",
+        "value": "clip-path inset(8%) to none, 1.3s expo.out, once at top 85%",
+        "purpose": "[data-reveal-image]."
+      },
+      {
+        "name": "parallax-drift",
+        "value": "yPercent -6 to 6, scrubbed",
+        "purpose": "[data-parallax] inside image slots with a real photograph."
+      },
+      {
+        "name": "hero-line-rise",
+        "value": "yPercent 105 to 0, 1.4s expo.out, stagger 0.12s",
+        "purpose": "Hero headline lines from their own clip."
+      },
+      {
+        "name": "film-chapter-pin",
+        "value": "chapter 260svh, sticky 100svh stage, scrub 0.6",
+        "purpose": "Each film chapter pins one full screen (.film.is-film)."
+      },
+      {
+        "name": "film-herb-settle",
+        "value": "herb still scale 1.12 to 1 across the chapter; herb copy y -40px + fade at 35%",
+        "purpose": "Herb screen yields."
+      },
+      {
+        "name": "film-develop",
+        "value": "product layer clip-path inset(100% 0 0 0) to inset(0), 0.42 of the timeline from 30%, power2.inOut; 1px gold-light line rides the edge then fades",
+        "purpose": "The product develops upward out of the herb."
+      },
+      {
+        "name": "film-product-settle",
+        "value": "product still scale 1.16 to 1; product copy children y 28px + fade, stagger 0.05, from 50%",
+        "purpose": "Product screen arrives."
+      },
+      {
+        "name": "header-hide",
+        "value": "translateY(-100%) when scrolling down past 400px, 300ms ease-out; returns on scroll up or focus",
+        "purpose": "Gives the film the whole screen."
+      },
+      {
+        "name": "image-hover-zoom",
+        "value": "scale 1.04 over 700ms",
+        "purpose": "Instagram tiles inside their clip on hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: no-preference gate",
+        "purpose": "Every animation; content visible by default."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px",
+        "purpose": "12-column grid, film split layout, desktop still art-direction"
+      },
+      {
+        "name": "xl",
+        "value": "1280px",
+        "purpose": "Desktop navigation; mobile dock and Menu drawer hidden"
+      },
+      {
+        "name": "container",
+        "value": "1440px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Forest fill, ivory tracked label; the main action on light grounds.",
+      "html": "<button class=\"ds-btn-primary\">Notify me</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 28px;border:0;border-radius:2px;background:var(--forest);color:var(--ivory);font:600 0.8125rem/1 Manrope,system-ui,sans-serif;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;transition:background-color 200ms var(--ease-out)}.ds-btn-primary:hover{background:var(--forest-deep)}.ds-btn-primary:focus-visible{outline:2px solid var(--forest);outline-offset:3px}"
+    },
+    {
+      "name": "Primary Button on Dark",
+      "kind": "button",
+      "refersTo": "button-primary-on-dark",
+      "description": "Ivory fill on forest fields: the hero's Shop the collection (with nudging arrow) and each film chapter's Order on WhatsApp.",
+      "html": "<div class=\"ds-dark\"><a href=\"#\" class=\"ds-btn-ondark\">Shop the collection <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M2 8h11M9 4l4 4-4 4\"/></svg></a></div>",
+      "css": ".ds-dark{background:var(--forest);padding:32px}.ds-btn-ondark{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 28px;border-radius:2px;background:var(--ivory);color:var(--forest);font:600 0.8125rem/1 Manrope,system-ui,sans-serif;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:background-color 200ms}.ds-btn-ondark svg{transition:transform 300ms var(--ease-out)}.ds-btn-ondark:hover{background:var(--beige)}.ds-btn-ondark:hover svg{transform:translateX(4px)}.ds-btn-ondark:focus-visible{outline:2px solid var(--gold-light);outline-offset:3px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Header WhatsApp order button; fills with its text colour on hover.",
+      "html": "<a href=\"#\" class=\"ds-btn-outline\">Order</a>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:1px solid var(--forest);border-radius:2px;color:var(--forest);font:600 0.8125rem/1 Manrope,system-ui,sans-serif;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:background-color 200ms,color 200ms}.ds-btn-outline:hover{background:var(--forest);color:var(--ivory)}.ds-btn-outline:focus-visible{outline:2px solid var(--forest);outline-offset:3px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "link-line",
+      "description": "Secondary action: underline that thickens on hover.",
+      "html": "<a href=\"#\" class=\"ds-link-line\">Get directions</a>",
+      "css": ".ds-link-line{color:var(--forest);font:400 1rem/1.6 Manrope,system-ui,sans-serif;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:5px;transition:text-decoration-thickness 160ms var(--ease-out)}.ds-link-line:hover{text-decoration-thickness:2px}.ds-link-line:focus-visible{outline:2px solid var(--forest);outline-offset:3px}"
+    },
+    {
+      "name": "Email Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Ivory field, faint forest border, 2px corner.",
+      "html": "<label class=\"ds-label\" for=\"ds-email\">Email address</label><input id=\"ds-email\" class=\"ds-input\" type=\"email\" placeholder=\"name@example.com\">",
+      "css": ".ds-label{display:block;margin-bottom:8px;font:500 0.875rem Manrope,system-ui,sans-serif;color:var(--forest)}.ds-input{min-height:48px;width:100%;max-width:360px;padding:0 16px;border:1px solid rgb(38 60 48/0.3);border-radius:2px;background:var(--ivory);color:var(--ink);font:400 1rem Manrope,system-ui,sans-serif}.ds-input::placeholder{color:var(--sage-deep)}.ds-input:focus{border-color:var(--forest);outline:none}.ds-input:focus-visible{outline:2px solid var(--forest);outline-offset:2px}"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "site-header",
+      "description": "Tracked uppercase links (from 1280px) on the solid ivory header with a gold hairline; the header hides on scroll down.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">Collections</a><a href=\"#\">Ingredients</a><a href=\"#\">Ritual</a><a href=\"#\">Our practice</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;padding:24px 32px;background:rgb(250 248 242/0.95);box-shadow:0 1px 0 rgb(176 141 87/0.35)}.ds-nav a{padding:8px 0;color:var(--forest);font:600 0.8125rem Manrope,system-ui,sans-serif;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;text-underline-offset:8px}.ds-nav a:hover{text-decoration:underline;text-decoration-thickness:1px}.ds-nav a:focus-visible{outline:2px solid var(--forest);outline-offset:3px}"
+    },
+    {
+      "name": "Collection Tab",
+      "kind": "chip",
+      "refersTo": "collection-tab-selected",
+      "description": "Vertical ruled tab list on desktop; selected tab full forest.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\" class=\"ds-tab\">Hair Oils <span>9</span></button><button role=\"tab\" aria-selected=\"false\" class=\"ds-tab\">Face Serums <span>4</span></button></div>",
+      "css": ".ds-tabs{display:flex;flex-direction:column;max-width:360px;background:var(--beige);padding:16px}.ds-tab{display:flex;justify-content:space-between;align-items:baseline;padding:20px 0;border:0;border-bottom:1px solid rgb(176 141 87/0.4);background:none;color:rgb(38 60 48/0.75);font:400 2rem/1 'Cormorant Garamond',Georgia,serif;text-align:left;cursor:pointer;transition:color 200ms}.ds-tab span{font:400 0.875rem Manrope,system-ui,sans-serif;font-variant-numeric:tabular-nums}.ds-tab:hover,.ds-tab[aria-selected=true]{color:var(--forest)}.ds-tab:focus-visible{outline:2px solid var(--forest);outline-offset:3px}"
+    },
+    {
+      "name": "Image Slot Placeholder",
+      "kind": "card",
+      "refersTo": "image-slot-placeholder",
+      "description": "Labelled stand-in for a pending editorial photograph; square, linen field, 12px inset gold frame, leaf mark.",
+      "html": "<div class=\"ds-slot\" role=\"img\" aria-label=\"Photograph to come: Herbal Hair Pack, product photo\"><div class=\"ds-slot-frame\"></div><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M5 19c0-8 6-14 14-14 0 8-6 14-14 14zM5 19l8-8\"/></svg><p class=\"ds-slot-label\">Herbal Hair Pack, product photo</p><p class=\"ds-slot-id\">Image P3, photograph to come</p></div>",
+      "css": ".ds-slot{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;aspect-ratio:4/5;width:240px;padding:24px;background:var(--beige);color:var(--sage-deep);text-align:center}.ds-slot svg{color:var(--gold)}.ds-slot-frame{position:absolute;inset:12px;border:1px solid rgb(176 141 87/0.45)}.ds-slot-label{margin:0;font:italic 400 1.125rem/1.25 'Cormorant Garamond',Georgia,serif}.ds-slot-id{margin:0;font:400 0.75rem Manrope,system-ui,sans-serif;opacity:0.8}"
+    },
+    {
+      "name": "Mobile Dock",
+      "kind": "nav",
+      "refersTo": "dock-action",
+      "description": "Fixed Shop + WhatsApp bar below 1280px; both actions are always ivory outlines, so the section in view owns the only filled primary.",
+      "html": "<nav class=\"ds-dock\" aria-label=\"Quick actions\"><a href=\"#\" class=\"ds-dock-a\">Shop</a><a href=\"#\" class=\"ds-dock-a\">WhatsApp</a></nav>",
+      "css": ".ds-dock{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:390px;padding:12px 16px;background:rgb(27 43 34/0.95);border-top:1px solid rgb(176 141 87/0.3);backdrop-filter:blur(4px)}.ds-dock-a{display:flex;align-items:center;justify-content:center;min-height:48px;border:1px solid rgb(250 248 242/0.6);border-radius:2px;color:var(--ivory);font:600 0.8125rem/1 Manrope,system-ui,sans-serif;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:background-color 300ms,color 300ms}.ds-dock-filled{background:var(--ivory);border-color:var(--ivory);color:var(--forest)}.ds-dock-a:focus-visible{outline:2px solid var(--gold-light);outline-offset:3px}"
+    },
+    {
+      "name": "Film Still Placeholder",
+      "kind": "card",
+      "refersTo": "film-still-placeholder",
+      "description": "Full-bleed labelled stand-in for a pending film still; forest-deep (herb) or forest (product), 16px inset gold frame.",
+      "html": "<div class=\"ds-still\" role=\"img\" aria-label=\"Photograph to come: Saffron still, 9:16\"><div class=\"ds-still-frame\"></div><div class=\"ds-still-cap\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M5 19c0-8 6-14 14-14 0 8-6 14-14 14zM5 19l8-8\"/></svg><p class=\"ds-still-label\">Saffron still, 9:16</p><p class=\"ds-still-id\">Image K1, photograph to come</p></div></div>",
+      "css": ".ds-still{position:relative;width:240px;aspect-ratio:9/16;background:var(--forest-deep);color:var(--gold-light)}.ds-still-frame{position:absolute;inset:16px;border:1px solid rgb(176 141 87/0.25)}.ds-still-cap{position:absolute;inset-inline:0;top:16%;display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}.ds-still-cap svg{color:rgb(176 141 87/0.6)}.ds-still-label{margin:0;font:italic 400 1rem 'Cormorant Garamond',Georgia,serif;color:rgb(212 180 131/0.9)}.ds-still-id{margin:0;font:400 0.75rem Manrope,system-ui,sans-serif;color:rgb(250 248 242/0.6)}"
+    },
+    {
+      "name": "Film Chapter Copy",
+      "kind": "custom",
+      "refersTo": "film-chapter",
+      "description": "Herb screen copy (poster herb name, botanical Latin, note, gold rule into 'becomes the ...') with the 1-to-5 progress rail.",
+      "html": "<div class=\"ds-ch\"><div class=\"ds-rail\" aria-hidden=\"true\"><span>Face · 1/5</span><i class=\"on\"></i><i></i><i></i><i></i><i></i></div><p class=\"ds-ch-herb\" aria-hidden=\"true\">Kumkuma</p><p class=\"ds-ch-latin\">Crocus sativus</p><p class=\"ds-ch-note\">Kumkumadi takes its name from kumkuma, the Sanskrit word for saffron.</p><p class=\"ds-ch-becomes\"><span></span>becomes the Kumkumadi Face Serum</p></div>",
+      "css": ".ds-ch{position:relative;width:390px;min-height:560px;padding:96px 16px 48px;box-sizing:border-box;background:var(--forest-deep);color:var(--ivory);display:flex;flex-direction:column;justify-content:flex-end}.ds-rail{position:absolute;top:24px;right:32px;display:flex;flex-direction:column;align-items:flex-end;gap:6px;font:400 0.75rem Manrope,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:rgb(250 248 242/0.8)}.ds-rail span{margin-bottom:6px}.ds-rail i{display:block;width:1px;height:20px;background:rgb(250 248 242/0.3)}.ds-rail i.on{background:var(--gold-light)}.ds-ch-herb{margin:0;font:300 clamp(3.5rem,11vw,7rem)/0.98 'Cormorant Garamond',Georgia,serif;letter-spacing:-0.015em}.ds-ch-latin{margin:12px 0 0;font:italic 400 1.25rem 'Cormorant Garamond',Georgia,serif;color:rgb(250 248 242/0.85)}.ds-ch-note{margin:16px 0 0;max-width:30rem;font:400 1.0625rem/1.625 Manrope,system-ui,sans-serif;color:rgb(250 248 242/0.9)}.ds-ch-becomes{display:flex;align-items:center;gap:12px;margin:24px 0 0;font:400 0.875rem Manrope,system-ui,sans-serif;color:var(--gold-light)}.ds-ch-becomes span{width:40px;height:1px;background:rgb(212 180 131/0.7)}"
+    },
+    {
+      "name": "Ritual Step",
+      "kind": "custom",
+      "refersTo": "numeral",
+      "description": "Cormorant light lining numeral in Ink Gold beside a step title, on a gold hairline.",
+      "html": "<div class=\"ds-step\"><span class=\"ds-step-n\" aria-hidden=\"true\">1</span><div><h3 class=\"ds-step-t\">Warm the oil</h3><p class=\"ds-step-p\">A few drops between the palms.</p></div></div>",
+      "css": ".ds-step{display:grid;grid-template-columns:6rem minmax(0,1fr);gap:24px;max-width:560px;padding:40px 16px;border-top:1px solid rgb(176 141 87/0.5);background:var(--beige)}.ds-step-n{font:300 4.5rem/1 'Cormorant Garamond',Georgia,serif;font-variant-numeric:lining-nums tabular-nums;color:var(--gold-ink)}.ds-step-t{margin:0;font:400 2rem/1.25 'Cormorant Garamond',Georgia,serif;color:var(--forest)}.ds-step-p{margin:12px 0 0;font:400 1.0625rem/1.625 Manrope,system-ui,sans-serif;color:rgb(28 38 32/0.85)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Night Apothecary",
+    "overview": "A physician's small-batch apothecary staged like a night-time botanical still life. Deep forest fields own whole sections and alternate with warm ivory and beige grounds; gold appears only as hairline rules, the logo's own metal and a handful of italic phrases. Display type is Cormorant Garamond at light weight, set at poster scale over full-screen stills; every working word is Manrope. Density is low: one idea per screen, generous vertical rhythm, editorial 12-column asymmetry instead of rows of equal cards.\n\nThe surface is flat and square. Images and fields are square-cut; only controls carry a 2px corner; the only circles are the gold orbit rings around the seal. There are no shadows and no decorative gradients, only photographic scrims where a still sits under text. Motion is slow and calm and, where it carries the story, scrubbed to the scroll: full-screen stills that pin, settle and develop one into the next. Everything is visible and reachable without JavaScript and without motion.\n\nPhotography is pending. Every photograph position is a labelled placeholder (a field in the section's own colour, an inset gold hairline frame, a leaf mark, the slot id) so nobody mistakes a placeholder for packaging; it swaps to the owner's photograph by setting its source, with no layout change.",
+    "keyCharacteristics": [
+      "Whole-screen colour fields: forest, forest-deep, ivory, beige; the film runs on one continuous forest surface.",
+      "Gold is line and metal, never a fill behind text.",
+      "Cormorant 300 display at poster scale with italic gold-light phrases; Manrope for everything that works.",
+      "Square images, 1px gold hairlines, 2px controls, no shadows.",
+      "One motion vocabulary (reveal, clip-open, drift, and the scrubbed film chapter), all gated on reduced-motion."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Is Metal Rule",
+        "body": "Gold draws lines and marks; it never fills a surface or a button. On light grounds any gold text uses Ink Gold, never Seal Gold.",
+        "section": "colors"
+      },
+      {
+        "name": "The Whole Field Rule",
+        "body": "A colour owns a full-bleed section or a full screen; sections alternate fields rather than placing cards on a ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Display Rule",
+        "body": "Headings are Cormorant at 300 with no bolding; emphasis comes from italic or Lamplight Gold, not weight. Italic covers a whole phrase, never one word.",
+        "section": "typography"
+      },
+      {
+        "name": "The Label Is For Controls Rule",
+        "body": "Uppercase tracked Manrope is reserved for buttons, dock actions and navigation. Section headings are never preceded by an uppercase label line.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Counts, sizes, hours, phone numbers and the chapter count use tabular numerals; ritual numerals add lining figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Lift Rule",
+        "body": "Nothing casts a shadow or lifts on hover. Hover changes colour, underline weight, a 4px arrow nudge, or a slow 4% image zoom inside a clipped frame.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Scrim Only Rule",
+        "body": "The only gradients permitted are photographic scrims in the field's own colour, keeping text at 4.5:1 over a still: from below on phones (solid, 75% at 45%, clear at the top of the lower three quarters), and on desktop from the copy side (the hero from the left; split chapters a soft 22%-wide edge where the still meets the copy).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do give each section or screen a whole colour field (forest, forest-deep, ivory or beige) and alternate them.",
+      "Do keep gold to 1px hairlines at 25 to 50% alpha, the logo, the develop line and rail tick, and italic gold-light phrases on dark; use Ink Gold (#7d5f2c) for any gold text on light grounds.",
+      "Do set headings in Cormorant Garamond 300 with balanced wrap; cap headings at 6rem, with the film's herb names (up to 7rem, alone over a still) the only exception.",
+      "Do set botanical Latin in Cormorant italic and ritual numerals as Cormorant lining numerals in Ink Gold.",
+      "Do keep images and surfaces square and controls at 2px.",
+      "Do put every pending photograph behind a labelled Film Still or Image Slot placeholder rather than a stock or generated stand-in.",
+      "Do keep Shop and WhatsApp under the thumb below 1280px, with only one filled primary in view.",
+      "Do gate every animation on `prefers-reduced-motion: no-preference` and keep content visible and stacked without it."
+    ],
+    "donts": [
+      "Don't add drop shadows, lifted hover states or gradients other than a photographic scrim.",
+      "Don't fill buttons or surfaces with gold, or set Seal Gold text on ivory or beige.",
+      "Don't put an uppercase label line above section headings; uppercase tracked type is for buttons, dock actions and navigation only.",
+      "Don't round images or cards, or use pill shapes outside the hero's orbit rings.",
+      "Don't use promo carousels, countdown banners or rows of identical cards.",
+      "Don't treat the interim wordmark's sizes (1.65rem, 1.85rem, 0.5625rem) or its 600 weight as type-ramp steps."
+    ]
+  }
+}

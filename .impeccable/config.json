@@ -1,0 +1,32 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font-size",
+        "value": "1.65rem",
+        "createdAt": "2026-11-08T12:31:24.989Z",
+        "reason": "Claude: interim typeset header wordmark, documented in DESIGN.md as a stand-in until the owner's vector wordmark exists"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "1.85rem",
+        "createdAt": "2026-11-08T12:31:25.405Z",
+        "reason": "Claude: interim typeset header wordmark (sm size), documented stand-in"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "0.5625rem",
+        "createdAt": "2026-11-08T12:31:25.988Z",
+        "reason": "Claude: AYURVEDA line of the interim typeset wordmark, documented stand-in"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "3.5rem",
+        "createdAt": "2026-11-08T12:31:26.525Z",
+        "reason": "Claude: ritual step numerals (display numerals, mobile size); to be recorded in DESIGN.md at the documenter pass"
+      }
+    ]
+  }
+}
