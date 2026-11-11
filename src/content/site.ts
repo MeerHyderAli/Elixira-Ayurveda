@@ -145,7 +145,6 @@ export type Chapter = {
   herb: string;
   latin: string;
   note: string;
-  herbSlot: ImageSlotId;
   product: string;
   productSlot: ImageSlotId;
   collectionId: string;
@@ -159,7 +158,6 @@ export const chapters: Chapter[] = [
     herb: "Kumkuma",
     latin: "Crocus sativus",
     note: "Kumkumadi takes its name from kumkuma, the Sanskrit word for saffron.",
-    herbSlot: "K1",
     product: "Kumkumadi Face Serum",
     productSlot: "P1",
     collectionId: "face-serums",
@@ -169,7 +167,6 @@ export const chapters: Chapter[] = [
     herb: "Curry leaf",
     latin: "Murraya koenigii",
     note: "Named on the bottle, alongside neem.",
-    herbSlot: "K2",
     product: "Neem & Curry Leaves Hair Oil",
     productSlot: "P2",
     collectionId: "hair-oils",
@@ -179,7 +176,6 @@ export const chapters: Chapter[] = [
     herb: "Sandalwood",
     latin: "Santalum album",
     note: "The wood that gives the Sandalwood Gel its name.",
-    herbSlot: "K3",
     product: "Sandalwood Gel",
     productSlot: "P3",
     collectionId: "gels",
@@ -189,7 +185,6 @@ export const chapters: Chapter[] = [
     herb: "Black seed",
     latin: "Nigella sativa",
     note: "Prepared into oil in small batches.",
-    herbSlot: "K4",
     product: "Black Seed Hair Oil",
     productSlot: "P4",
     collectionId: "hair-oils",
@@ -199,7 +194,6 @@ export const chapters: Chapter[] = [
     herb: "Neem & tulsi",
     latin: "Azadirachta indica · Ocimum tenuiflorum",
     note: "The two leaves named on the bar.",
-    herbSlot: "K5",
     product: "Neem & Tulsi Soap",
     productSlot: "P5",
     collectionId: "soaps",
@@ -210,7 +204,6 @@ export const chapters: Chapter[] = [
  *  Generation prompts: docs/IMAGE_PROMPTS.md. */
 export type ImageSlotId =
   | "H1" | "E1" | "E2" | "R1"
-  | "K1" | "K2" | "K3" | "K4" | "K5"
   | "P1" | "P2" | "P3" | "P4" | "P5"
   | "C1" | "C2" | "C3" | "C4" | "C5" | "C6" | "C7"
   | "G1" | "G2" | "G3" | "G4" | "G5" | "G6";
@@ -225,8 +218,7 @@ export type ImageSlot = {
 };
 
 // Owner-generated product images (AI mockups of the brand's packaging), 2026-11-09.
-// Originals: assets/brand-input/product-images/. Herb stills (K*) and the founder portrait (E1) are still to come;
-// herb screens render a typographic plate until a K* file exists.
+// Originals: assets/brand-input/product-images/. The founder portrait (E1) is still to come.
 const img = (file: string, alt: string) => ({ src: `/images/${file}`, alt });
 
 export const imageSlots: Record<ImageSlotId, ImageSlot> = {
@@ -234,11 +226,6 @@ export const imageSlots: Record<ImageSlotId, ImageSlot> = {
   E1: { label: "Founder portrait 4:5" },
   E2: { label: "Saffron and oil", ...img("saffron-oil-drop.webp", "A drop of oil falling from a dropper onto saffron threads in a brass bowl") },
   R1: { label: "Herbal Hair Pack", ...img("herbal-hair-pack.webp", "Elixira Herbal Hair Pack jar with herbal powder, hibiscus and amla") },
-  K1: { label: "Saffron still, 9:16" },
-  K2: { label: "Curry leaf still, 9:16" },
-  K3: { label: "Sandalwood still, 9:16" },
-  K4: { label: "Black seed still, 9:16" },
-  K5: { label: "Neem & tulsi still, 9:16" },
   P1: { label: "Kumkumadi Face Serum", ...img("kumkumadi-face-serum.webp", "Elixira Kumkumadi Face Serum dropper bottle with saffron and jasmine on dark stone") },
   P2: { label: "Neem & Curry Leaves Hair Oil", ...img("neem-curry-leaves-hair-oil.webp", "Elixira Neem & Curry Leaves Hair Oil bottle among neem and curry leaves") },
   P3: { label: "Sandalwood Gel", ...img("sandalwood-gel.webp", "Open jar of Elixira Premium Sandalwood Gel beside sandalwood sticks") },

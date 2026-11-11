@@ -135,26 +135,29 @@ html {
   top: 1rem;
 }
 
-/* Herb-to-bottle film. Default (no JS / reduced motion): herb and product screens stack.
-   .is-film (added by GSAP when motion is allowed): each chapter pins one full screen. */
-.film .layer {
-  position: relative;
-  min-height: 100svh;
-  overflow: hidden;
+/* Formulas shelf: the centred card is full size, neighbours shrink and dim (scroll-driven, no JS).
+   Unsupported browsers or reduced motion: every card simply shows at full size. */
+.shelf::-webkit-scrollbar {
+  display: none;
 }
-.film.is-film .chapter {
-  height: 260svh;
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .shelf-card {
+      animation: shelf-focus linear both;
+      animation-timeline: view(inline);
+    }
+  }
 }
-.film.is-film .chapter-stage {
-  position: sticky;
-  top: 0;
-  height: 100svh;
-  overflow: hidden;
-}
-.film.is-film .chapter-stage > .layer {
-  position: absolute;
-  inset: 0;
-  min-height: 0;
+@keyframes shelf-focus {
+  0%,
+  100% {
+    transform: scale(0.86);
+    opacity: 0.45;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {

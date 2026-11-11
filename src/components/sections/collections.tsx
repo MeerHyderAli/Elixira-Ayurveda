@@ -98,7 +98,8 @@ export function Collections() {
             <ImageSlot
               key={current.imageSlot}
               id={current.imageSlot}
-              aspect="aspect-[16/9] md:aspect-[4/5]"
+              aspect="aspect-[4/5]"
+              fit="contain"
               sizes="(min-width: 1024px) 26vw, (min-width: 768px) 40vw, 100vw"
             />
             <div className="flex flex-col">

@@ -11,6 +11,8 @@ type Props = {
   preload?: boolean;
   /** Small slots show only the mark and image id. */
   compact?: boolean;
+  /** "contain" shows the whole photo (no edge crop) when shapes vary; the frame keeps its aspect. */
+  fit?: "cover" | "contain";
   /** Slow scroll drift on the real photograph (placeholders stay still so their frame is never cropped). */
   parallax?: boolean;
   className?: string;
@@ -20,7 +22,7 @@ type Props = {
  * Renders the owner's photograph when `imageSlots[id].src` is set; until then, a labelled
  * placeholder so nobody mistakes it for real packaging. Briefs: docs/IMAGE_ASSET_PLAN.md.
  */
-export function ImageSlot({ id, aspect, sizes, tone = "light", preload, compact, parallax, className = "" }: Props) {
+export function ImageSlot({ id, aspect, sizes, tone = "light", preload, compact, parallax, fit = "cover", className = "" }: Props) {
   const slot = imageSlots[id];
   const box = `relative overflow-hidden ${aspect ?? "h-full w-full"} ${className}`;
 
@@ -33,7 +35,7 @@ export function ImageSlot({ id, aspect, sizes, tone = "light", preload, compact,
         sizes={sizes}
         preload={preload}
         quality={85}
-        className="object-cover"
+        className={fit === "contain" ? "object-contain" : "object-cover"}
       />
     );
     return (
